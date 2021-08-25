@@ -10,7 +10,7 @@ public class RequestHeaderServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        printStartLine(request);
+        //printStartLine(request);
         printHeaders(request);
         printHeaderUtils(request);
     }
